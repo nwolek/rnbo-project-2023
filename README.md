@@ -11,11 +11,11 @@ They must be delivered with sufficient documentation in time for the MIDI unit i
 
 In the DIGA 366 course, students complete advanced projects using a variety of software and hardware tools. 
 This course explores topics such as immersive audio, gestural controllers, live performance practices, instrument design, sound installations, and software programming. 
-Creating VST plug-ins fits nicely within this context nicely. 
+Creating VST plug-ins fits within this context nicely. 
 
 In the DIGA 161A course, students have a project called "theme music". 
 Each student will create 2 contrasting theme songs using MIDI sequencing, basic synthesis, and basic sampling. 
-These must use at least 4 different sound sources and conform to the conventions of a theme music (i.e., fit time limits, convey a mood, be attention getting, evolve over time, etc.).
+These must use at least 4 different sound sources and conform to the conventions of theme music (i.e., fit time limits, convey a mood, be attention getting, evolve over time, etc.).
 These students are using [Reaper](https://www.reaper.fm), which has very limited MIDI softsynths.
 
 This is my first attempt to link projects in these two courses. 
