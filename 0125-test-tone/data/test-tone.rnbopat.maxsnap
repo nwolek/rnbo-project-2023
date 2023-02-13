@@ -1,0 +1,14 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "test-tone.rnbopat",
+	"origin" : "test-tone.rnbopat",
+	"type" : "rnbo",
+	"subtype" : "",
+	"embed" : 0,
+	"snapshot" : 	{
+		"__presetid" : "test-tone.rnbopat"
+	}
+
+}

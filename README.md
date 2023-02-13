@@ -1,8 +1,6 @@
 # rnbo-project-2023
 Collaboration with my DIGA 366 students to create a new VST instrument using Cycling74's RNBO.
 
-Small change to test push.
-
 ## Description
 
 In the early weeks of the semester, we will work together to explore the [new features of Cycling74's RNBO](https://cycling74.com/products/rnbo). 
