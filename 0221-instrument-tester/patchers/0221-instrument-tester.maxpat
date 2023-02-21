@@ -40,6 +40,32 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"attr" : "high-cut",
+					"id" : "obj-58",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 260.0, 286.833334684371948, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "low-cut",
+					"id" : "obj-57",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 195.0, 253.833334684371948, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-56",
 					"maxclass" : "message",
@@ -1250,6 +1276,18 @@
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
+,
+						"high-cut" : 						{
+							"label" : "high-cut",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"low-cut" : 						{
+							"label" : "low-cut",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
 
 					}
 ,
@@ -1281,7 +1319,15 @@
 						"embed" : 1,
 						"snapshot" : 						{
 							"release" : 							{
-								"value" : 96.0
+								"value" : 508.0
+							}
+,
+							"low-cut" : 							{
+								"value" : 10.0
+							}
+,
+							"high-cut" : 							{
+								"value" : 1983.0
 							}
 ,
 							"__presetid" : "instrument-01.rnbopat"
@@ -1300,7 +1346,15 @@
 									"embed" : 1,
 									"snapshot" : 									{
 										"release" : 										{
-											"value" : 96.0
+											"value" : 508.0
+										}
+,
+										"low-cut" : 										{
+											"value" : 10.0
+										}
+,
+										"high-cut" : 										{
+											"value" : 1983.0
 										}
 ,
 										"__presetid" : "instrument-01.rnbopat"
@@ -1776,6 +1830,20 @@
 					"destination" : [ "obj-55", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-56", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-58", 0 ]
 				}
 
 			}
