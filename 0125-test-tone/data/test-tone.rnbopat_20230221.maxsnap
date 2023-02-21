@@ -3,12 +3,16 @@
 	"version" : 2,
 	"minorversion" : 0,
 	"name" : "test-tone.rnbopat",
-	"origin" : "test-tone.rnbopat",
+	"origin" : "instrument-01.rnbopat",
 	"type" : "rnbo",
 	"subtype" : "",
 	"embed" : 1,
 	"snapshot" : 	{
-		"__presetid" : "test-tone.rnbopat"
+		"release" : 		{
+			"value" : 96.0
+		}
+,
+		"__presetid" : "instrument-01.rnbopat"
 	}
 
 }
