@@ -40,6 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"attr" : "release",
+					"id" : "obj-52",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 340.0, 328.833334684371948, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-43",
 					"maxclass" : "newobj",
 					"numinlets" : 7,
@@ -1193,8 +1206,13 @@
 					}
 ,
 					"outlettype" : [ "signal", "signal", "list" ],
-					"patching_rect" : [ 340.0, 418.0, 360.0, 31.0 ],
+					"patching_rect" : [ 340.0, 418.0, 404.0, 31.0 ],
 					"rnboattrcache" : 					{
+						"release" : 						{
+							"label" : "release",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
 
 					}
 ,
@@ -1225,7 +1243,11 @@
 						"subtype" : "Undefined",
 						"embed" : 1,
 						"snapshot" : 						{
-							"__presetid" : "test-tone.rnbopat"
+							"release" : 							{
+								"value" : 96.0
+							}
+,
+							"__presetid" : "instrument-01.rnbopat"
 						}
 ,
 						"snapshotlist" : 						{
@@ -1235,12 +1257,16 @@
 									"version" : 2,
 									"minorversion" : 0,
 									"name" : "test-tone.rnbopat",
-									"origin" : "test-tone.rnbopat",
+									"origin" : "instrument-01.rnbopat",
 									"type" : "rnbo",
 									"subtype" : "",
 									"embed" : 1,
 									"snapshot" : 									{
-										"__presetid" : "test-tone.rnbopat"
+										"release" : 										{
+											"value" : 96.0
+										}
+,
+										"__presetid" : "instrument-01.rnbopat"
 									}
 ,
 									"fileref" : 									{
@@ -1248,7 +1274,7 @@
 										"filename" : "test-tone.rnbopat_20230221.maxsnap",
 										"filepath" : "~/Documents/Storage/hot_files/emsd2/rnbo-project-2023/0125-test-tone/data",
 										"filepos" : -1,
-										"snapshotfileid" : "364e2247bed5c8eecdc270e31db9329d"
+										"snapshotfileid" : "a849c688fd86046f25dfdea38b001233"
 									}
 
 								}
@@ -1257,7 +1283,7 @@
 
 					}
 ,
-					"text" : "rnbo~ @patchername test-tone.rnbopat",
+					"text" : "rnbo~ @patchername instrument-01.rnbopat",
 					"varname" : "rnbo~[1]"
 				}
 
@@ -1686,6 +1712,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"source" : [ "obj-9", 0 ]
 				}
@@ -1707,7 +1740,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "test-tone.rnbopat",
+				"name" : "instrument-01.rnbopat",
 				"bootpath" : "~/Documents/Storage/hot_files/emsd2/rnbo-project-2023/0221-instrument-tester/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "RBOP",

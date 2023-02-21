@@ -2,7 +2,7 @@
 	"name" : "0221-instrument-tester",
 	"version" : 1,
 	"creationdate" : 3759836400,
-	"modificationdate" : 3759836478,
+	"modificationdate" : 3759837848,
 	"viewrect" : [ 50.0, 144.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"instrument-01.rnbopat" : 			{
+				"kind" : "rnbopat",
+				"local" : 1
 			}
 
 		}
