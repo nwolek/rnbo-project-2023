@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 77.0, 100.0, 1078.0, 837.0 ],
+		"rect" : [ 124.0, 167.0, 1078.0, 837.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1012,14 +1012,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "test-tone.rnbopat",
 				"bootpath" : "~/Documents/Storage/hot_files/emsd2/rnbo-project-2023/0125-test-tone/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../../0125-test-tone/patchers",
 				"type" : "RBOP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "test-tone.rnbopat_20230221.maxsnap",
 				"bootpath" : "~/Documents/Storage/hot_files/emsd2/rnbo-project-2023/0125-test-tone/data",
-				"patcherrelativepath" : "../data",
+				"patcherrelativepath" : "../../0125-test-tone/data",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
