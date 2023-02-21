@@ -40,6 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"attr" : "oscillator/waveform",
+					"id" : "obj-59",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 117.0, 216.833334684371948, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"attr" : "high-cut",
 					"id" : "obj-58",
 					"maxclass" : "attrui",
@@ -1288,6 +1301,12 @@
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
+,
+						"oscillator/waveform" : 						{
+							"label" : "waveform",
+							"isEnum" : 1,
+							"parsestring" : "off sine saw square triangle"
+						}
 
 					}
 ,
@@ -1322,12 +1341,22 @@
 								"value" : 508.0
 							}
 ,
+							"__sps" : 							{
+								"oscillator" : 								{
+									"waveform" : 									{
+										"value" : 2.0
+									}
+
+								}
+
+							}
+,
 							"low-cut" : 							{
 								"value" : 10.0
 							}
 ,
 							"high-cut" : 							{
-								"value" : 1983.0
+								"value" : 2140.0
 							}
 ,
 							"__presetid" : "instrument-01.rnbopat"
@@ -1349,12 +1378,22 @@
 											"value" : 508.0
 										}
 ,
+										"__sps" : 										{
+											"oscillator" : 											{
+												"waveform" : 												{
+													"value" : 2.0
+												}
+
+											}
+
+										}
+,
 										"low-cut" : 										{
 											"value" : 10.0
 										}
 ,
 										"high-cut" : 										{
-											"value" : 1983.0
+											"value" : 2140.0
 										}
 ,
 										"__presetid" : "instrument-01.rnbopat"
@@ -1844,6 +1883,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-59", 0 ]
 				}
 
 			}
