@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 216.0, 131.0, 1119.0, 837.0 ],
+		"rect" : [ 594.0, 87.0, 1122.0, 711.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -97,7 +97,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 844.708333432674408, 366.958334684371948, 64.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "pitch bend"
 				}
 
@@ -116,7 +115,7 @@
 			}
 , 			{
 				"box" : 				{
-					"attr" : "release",
+					"attr" : "attack",
 					"id" : "obj-52",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
@@ -1290,14 +1289,32 @@
 							"parsestring" : ""
 						}
 ,
+						"low-cut" : 						{
+							"label" : "low-cut",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"high-cut" : 						{
 							"label" : "high-cut",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"low-cut" : 						{
-							"label" : "low-cut",
+						"attack" : 						{
+							"label" : "attack",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"decay" : 						{
+							"label" : "decay",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"sustain" : 						{
+							"label" : "sustain",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1337,10 +1354,6 @@
 						"subtype" : "Undefined",
 						"embed" : 1,
 						"snapshot" : 						{
-							"release" : 							{
-								"value" : 508.0
-							}
-,
 							"__sps" : 							{
 								"oscillator" : 								{
 									"waveform" : 									{
@@ -1351,15 +1364,31 @@
 
 							}
 ,
+							"sustain" : 							{
+								"value" : 0.8
+							}
+,
+							"decay" : 							{
+								"value" : 100.0
+							}
+,
+							"release" : 							{
+								"value" : 508.0
+							}
+,
+							"__presetid" : "instrument-01.rnbopat",
+							"attack" : 							{
+								"value" : 719.0
+							}
+,
 							"low-cut" : 							{
-								"value" : 10.0
+								"value" : 801.0
 							}
 ,
 							"high-cut" : 							{
-								"value" : 2140.0
+								"value" : 2143.0
 							}
-,
-							"__presetid" : "instrument-01.rnbopat"
+
 						}
 ,
 						"snapshotlist" : 						{
@@ -1374,10 +1403,6 @@
 									"subtype" : "",
 									"embed" : 1,
 									"snapshot" : 									{
-										"release" : 										{
-											"value" : 508.0
-										}
-,
 										"__sps" : 										{
 											"oscillator" : 											{
 												"waveform" : 												{
@@ -1388,15 +1413,31 @@
 
 										}
 ,
+										"sustain" : 										{
+											"value" : 0.8
+										}
+,
+										"decay" : 										{
+											"value" : 100.0
+										}
+,
+										"release" : 										{
+											"value" : 508.0
+										}
+,
+										"__presetid" : "instrument-01.rnbopat",
+										"attack" : 										{
+											"value" : 719.0
+										}
+,
 										"low-cut" : 										{
-											"value" : 10.0
+											"value" : 801.0
 										}
 ,
 										"high-cut" : 										{
-											"value" : 2140.0
+											"value" : 2143.0
 										}
-,
-										"__presetid" : "instrument-01.rnbopat"
+
 									}
 ,
 									"fileref" : 									{

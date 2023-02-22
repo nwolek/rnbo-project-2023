@@ -8,10 +8,6 @@
 	"subtype" : "",
 	"embed" : 1,
 	"snapshot" : 	{
-		"release" : 		{
-			"value" : 508.0
-		}
-,
 		"__sps" : 		{
 			"oscillator" : 			{
 				"waveform" : 				{
@@ -22,15 +18,31 @@
 
 		}
 ,
+		"sustain" : 		{
+			"value" : 0.8
+		}
+,
+		"decay" : 		{
+			"value" : 100.0
+		}
+,
+		"release" : 		{
+			"value" : 508.0
+		}
+,
+		"__presetid" : "instrument-01.rnbopat",
+		"attack" : 		{
+			"value" : 719.0
+		}
+,
 		"low-cut" : 		{
-			"value" : 10.0
+			"value" : 801.0
 		}
 ,
 		"high-cut" : 		{
-			"value" : 2140.0
+			"value" : 2143.0
 		}
-,
-		"__presetid" : "instrument-01.rnbopat"
+
 	}
 
 }
