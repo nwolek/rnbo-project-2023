@@ -53,7 +53,7 @@
 			}
 , 			{
 				"box" : 				{
-					"attr" : "high-cut",
+					"attr" : "filter/high-cut",
 					"id" : "obj-58",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
@@ -66,7 +66,7 @@
 			}
 , 			{
 				"box" : 				{
-					"attr" : "low-cut",
+					"attr" : "filter/low-cut",
 					"id" : "obj-57",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
@@ -1295,12 +1295,6 @@
 							"parsestring" : ""
 						}
 ,
-						"high-cut" : 						{
-							"label" : "high-cut",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"release" : 						{
 							"label" : "release",
 							"isEnum" : 0,
@@ -1313,8 +1307,14 @@
 							"parsestring" : ""
 						}
 ,
-						"low-cut" : 						{
-							"label" : "low-cut",
+						"filter/high-cut" : 						{
+							"label" : "filter/high-cut",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"filter/low-cut" : 						{
+							"label" : "filter/low-cut",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1354,16 +1354,6 @@
 						"subtype" : "Undefined",
 						"embed" : 1,
 						"snapshot" : 						{
-							"__sps" : 							{
-								"oscillator" : 								{
-									"waveform" : 									{
-										"value" : 1.0
-									}
-
-								}
-
-							}
-,
 							"sustain" : 							{
 								"value" : 0.8
 							}
@@ -1381,12 +1371,22 @@
 								"value" : 10.0
 							}
 ,
-							"low-cut" : 							{
-								"value" : 20.0
+							"filter/low-cut" : 							{
+								"value" : 992.0
 							}
 ,
-							"high-cut" : 							{
-								"value" : 8000.0
+							"__sps" : 							{
+								"oscillator" : 								{
+									"waveform" : 									{
+										"value" : 2.0
+									}
+
+								}
+
+							}
+,
+							"filter/high-cut" : 							{
+								"value" : 2131.0
 							}
 
 						}
@@ -1403,16 +1403,6 @@
 									"subtype" : "",
 									"embed" : 1,
 									"snapshot" : 									{
-										"__sps" : 										{
-											"oscillator" : 											{
-												"waveform" : 												{
-													"value" : 1.0
-												}
-
-											}
-
-										}
-,
 										"sustain" : 										{
 											"value" : 0.8
 										}
@@ -1430,12 +1420,22 @@
 											"value" : 10.0
 										}
 ,
-										"low-cut" : 										{
-											"value" : 20.0
+										"filter/low-cut" : 										{
+											"value" : 992.0
 										}
 ,
-										"high-cut" : 										{
-											"value" : 8000.0
+										"__sps" : 										{
+											"oscillator" : 											{
+												"waveform" : 												{
+													"value" : 2.0
+												}
+
+											}
+
+										}
+,
+										"filter/high-cut" : 										{
+											"value" : 2131.0
 										}
 
 									}
