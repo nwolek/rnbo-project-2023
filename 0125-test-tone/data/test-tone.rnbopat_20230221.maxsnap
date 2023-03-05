@@ -3,7 +3,7 @@
 	"version" : 2,
 	"minorversion" : 0,
 	"name" : "test-tone.rnbopat",
-	"origin" : "instrument-01.rnbopat",
+	"origin" : "instrument-02.rnbopat",
 	"type" : "rnbo",
 	"subtype" : "",
 	"embed" : 1,
@@ -11,7 +11,7 @@
 		"__sps" : 		{
 			"oscillator" : 			{
 				"waveform" : 				{
-					"value" : 2.0
+					"value" : 1.0
 				}
 
 			}
@@ -27,20 +27,20 @@
 		}
 ,
 		"release" : 		{
-			"value" : 508.0
+			"value" : 100.0
 		}
 ,
-		"__presetid" : "instrument-01.rnbopat",
+		"__presetid" : "instrument-02.rnbopat",
 		"attack" : 		{
-			"value" : 719.0
+			"value" : 10.0
 		}
 ,
 		"low-cut" : 		{
-			"value" : 801.0
+			"value" : 20.0
 		}
 ,
 		"high-cut" : 		{
-			"value" : 2143.0
+			"value" : 8000.0
 		}
 
 	}

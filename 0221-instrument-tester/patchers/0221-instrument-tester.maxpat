@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 594.0, 87.0, 1122.0, 711.0 ],
+		"rect" : [ 572.0, 100.0, 1122.0, 711.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1283,14 +1283,14 @@
 					"outlettype" : [ "signal", "signal", "list" ],
 					"patching_rect" : [ 340.0, 418.0, 404.0, 31.0 ],
 					"rnboattrcache" : 					{
-						"release" : 						{
-							"label" : "release",
+						"decay" : 						{
+							"label" : "decay",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"low-cut" : 						{
-							"label" : "low-cut",
+						"sustain" : 						{
+							"label" : "sustain",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1301,20 +1301,20 @@
 							"parsestring" : ""
 						}
 ,
+						"release" : 						{
+							"label" : "release",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"attack" : 						{
 							"label" : "attack",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"decay" : 						{
-							"label" : "decay",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"sustain" : 						{
-							"label" : "sustain",
+						"low-cut" : 						{
+							"label" : "low-cut",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1357,7 +1357,7 @@
 							"__sps" : 							{
 								"oscillator" : 								{
 									"waveform" : 									{
-										"value" : 2.0
+										"value" : 1.0
 									}
 
 								}
@@ -1373,20 +1373,20 @@
 							}
 ,
 							"release" : 							{
-								"value" : 508.0
+								"value" : 100.0
 							}
 ,
-							"__presetid" : "instrument-01.rnbopat",
+							"__presetid" : "instrument-02.rnbopat",
 							"attack" : 							{
-								"value" : 719.0
+								"value" : 10.0
 							}
 ,
 							"low-cut" : 							{
-								"value" : 801.0
+								"value" : 20.0
 							}
 ,
 							"high-cut" : 							{
-								"value" : 2143.0
+								"value" : 8000.0
 							}
 
 						}
@@ -1398,7 +1398,7 @@
 									"version" : 2,
 									"minorversion" : 0,
 									"name" : "test-tone.rnbopat",
-									"origin" : "instrument-01.rnbopat",
+									"origin" : "instrument-02.rnbopat",
 									"type" : "rnbo",
 									"subtype" : "",
 									"embed" : 1,
@@ -1406,7 +1406,7 @@
 										"__sps" : 										{
 											"oscillator" : 											{
 												"waveform" : 												{
-													"value" : 2.0
+													"value" : 1.0
 												}
 
 											}
@@ -1422,20 +1422,20 @@
 										}
 ,
 										"release" : 										{
-											"value" : 508.0
+											"value" : 100.0
 										}
 ,
-										"__presetid" : "instrument-01.rnbopat",
+										"__presetid" : "instrument-02.rnbopat",
 										"attack" : 										{
-											"value" : 719.0
+											"value" : 10.0
 										}
 ,
 										"low-cut" : 										{
-											"value" : 801.0
+											"value" : 20.0
 										}
 ,
 										"high-cut" : 										{
-											"value" : 2143.0
+											"value" : 8000.0
 										}
 
 									}
@@ -1445,7 +1445,7 @@
 										"filename" : "test-tone.rnbopat_20230221.maxsnap",
 										"filepath" : "~/Documents/Storage/hot_files/emsd2/rnbo-project-2023/0125-test-tone/data",
 										"filepos" : -1,
-										"snapshotfileid" : "a849c688fd86046f25dfdea38b001233"
+										"snapshotfileid" : "6ce44ab7103dfdad12ce023f7cbf843f"
 									}
 
 								}
@@ -1454,7 +1454,7 @@
 
 					}
 ,
-					"text" : "rnbo~ @patchername instrument-01.rnbopat",
+					"text" : "rnbo~ @patchername instrument-02.rnbopat",
 					"varname" : "rnbo~[1]"
 				}
 
@@ -1957,7 +1957,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "instrument-01.rnbopat",
+				"name" : "instrument-02.rnbopat",
 				"bootpath" : "~/Documents/Storage/hot_files/emsd2/rnbo-project-2023/0221-instrument-tester/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "RBOP",
