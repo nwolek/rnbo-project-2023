@@ -277,7 +277,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 688.666656404733658, 249.0, 294.0, 23.0 ],
+					"patching_rect" : [ 688.666656404733658, 249.0, 347.0, 23.0 ],
 					"rnbo_classname" : "param",
 					"rnbo_extra_attributes" : 					{
 						"order" : "0",
@@ -294,8 +294,8 @@
 						"unit" : ""
 					}
 ,
-					"rnbo_serial" : 1,
-					"rnbo_uniqueid" : "sustain",
+					"rnbo_serial" : 10,
+					"rnbo_uniqueid" : "envelope/sustain",
 					"rnboinfo" : 					{
 						"needsInstanceInfo" : 1,
 						"argnames" : 						{
@@ -670,8 +670,8 @@
 						"changesPatcherIO" : 0
 					}
 ,
-					"text" : "param sustain @minimum 0. @maximum 1. @value 0.8",
-					"varname" : "sustain"
+					"text" : "param envelope/sustain @minimum 0. @maximum 1. @value 0.8",
+					"varname" : "envelope/sustain"
 				}
 
 			}
@@ -682,7 +682,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 663.666656404733658, 218.0, 314.0, 23.0 ],
+					"patching_rect" : [ 663.666656404733658, 218.0, 367.0, 23.0 ],
 					"rnbo_classname" : "param",
 					"rnbo_extra_attributes" : 					{
 						"order" : "0",
@@ -699,8 +699,8 @@
 						"unit" : ""
 					}
 ,
-					"rnbo_serial" : 2,
-					"rnbo_uniqueid" : "decay",
+					"rnbo_serial" : 9,
+					"rnbo_uniqueid" : "envelope/decay",
 					"rnboinfo" : 					{
 						"needsInstanceInfo" : 1,
 						"argnames" : 						{
@@ -1075,8 +1075,8 @@
 						"changesPatcherIO" : 0
 					}
 ,
-					"text" : "param decay @minimum 10 @maximum 3000 @value 100",
-					"varname" : "decay"
+					"text" : "param envelope/decay @minimum 10 @maximum 3000 @value 100",
+					"varname" : "envelope/decay"
 				}
 
 			}
@@ -1087,7 +1087,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 624.666656404733658, 186.0, 309.0, 23.0 ],
+					"patching_rect" : [ 624.666656404733658, 186.0, 362.0, 23.0 ],
 					"rnbo_classname" : "param",
 					"rnbo_extra_attributes" : 					{
 						"order" : "0",
@@ -1104,8 +1104,8 @@
 						"unit" : ""
 					}
 ,
-					"rnbo_serial" : 3,
-					"rnbo_uniqueid" : "attack",
+					"rnbo_serial" : 8,
+					"rnbo_uniqueid" : "envelope/attack",
 					"rnboinfo" : 					{
 						"needsInstanceInfo" : 1,
 						"argnames" : 						{
@@ -1480,8 +1480,8 @@
 						"changesPatcherIO" : 0
 					}
 ,
-					"text" : "param attack @minimum 10 @maximum 3000 @value 10",
-					"varname" : "attack"
+					"text" : "param envelope/attack @minimum 10 @maximum 3000 @value 10",
+					"varname" : "envelope/attack"
 				}
 
 			}
@@ -3624,7 +3624,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 729.166656404733658, 283.0, 320.0, 23.0 ],
+					"patching_rect" : [ 729.166656404733658, 283.0, 373.0, 23.0 ],
 					"rnbo_classname" : "param",
 					"rnbo_extra_attributes" : 					{
 						"order" : "0",
@@ -3641,8 +3641,8 @@
 						"unit" : ""
 					}
 ,
-					"rnbo_serial" : 6,
-					"rnbo_uniqueid" : "release",
+					"rnbo_serial" : 11,
+					"rnbo_uniqueid" : "envelope/release",
 					"rnboinfo" : 					{
 						"needsInstanceInfo" : 1,
 						"argnames" : 						{
@@ -4017,8 +4017,8 @@
 						"changesPatcherIO" : 0
 					}
 ,
-					"text" : "param release @minimum 10 @maximum 3000 @value 100",
-					"varname" : "release"
+					"text" : "param envelope/release @minimum 10 @maximum 3000 @value 100",
+					"varname" : "envelope/release"
 				}
 
 			}
