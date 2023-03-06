@@ -2,8 +2,8 @@
 	"name" : "0221-instrument-tester",
 	"version" : 1,
 	"creationdate" : 3759836400,
-	"modificationdate" : 3760899709,
-	"viewrect" : [ 50.0, 144.0, 300.0, 500.0 ],
+	"modificationdate" : 3760976918,
+	"viewrect" : [ 46.0, 155.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -16,12 +16,12 @@
 				"toplevel" : 1
 			}
 ,
-			"instrument-01.rnbopat" : 			{
+			"instrument-02.rnbopat" : 			{
 				"kind" : "rnbopat",
 				"local" : 1
 			}
 ,
-			"instrument-02.rnbopat" : 			{
+			"instrument-01.rnbopat" : 			{
 				"kind" : "rnbopat",
 				"local" : 1
 			}

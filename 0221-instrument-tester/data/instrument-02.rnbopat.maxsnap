@@ -1,0 +1,114 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "instrument-02.rnbopat",
+	"origin" : "instrument-02.rnbopat",
+	"type" : "rnbo",
+	"subtype" : "",
+	"embed" : 1,
+	"snapshot" : 	{
+		"envelope/sustain" : 		{
+			"value" : 1.0
+		}
+,
+		"oscillator1/detune" : 		{
+			"value" : 0.8
+		}
+,
+		"oscillator1/pan" : 		{
+			"value" : 0.0
+		}
+,
+		"envelope/decay" : 		{
+			"value" : 100.0
+		}
+,
+		"envelope/attack" : 		{
+			"value" : 10.0
+		}
+,
+		"filter/low-cut" : 		{
+			"value" : 100.0
+		}
+,
+		"envelope/release" : 		{
+			"value" : 100.0
+		}
+,
+		"oscillator2/pan" : 		{
+			"value" : 0.0
+		}
+,
+		"filter/high-cut" : 		{
+			"value" : 1000.0
+		}
+,
+		"__sps" : 		{
+			"poly" : [ 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+, 				{
+
+				}
+ ]
+		}
+,
+		"oscillator2/detune" : 		{
+			"value" : 0.0
+		}
+,
+		"__presetid" : "instrument-02.rnbopat",
+		"oscillator2/waveform" : 		{
+			"value" : 0.0
+		}
+,
+		"oscillator1/waveform" : 		{
+			"value" : 1.0
+		}
+
+	}
+
+}

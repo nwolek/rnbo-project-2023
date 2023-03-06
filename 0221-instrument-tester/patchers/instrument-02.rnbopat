@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "rnbo",
-		"rect" : [ 102.0, 100.0, 1150.0, 894.0 ],
+		"rect" : [ 123.0, 114.0, 1297.0, 874.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1754,7 +1754,7 @@
 						"preset" : 1
 					}
 ,
-					"rnbo_serial" : 13,
+					"rnbo_serial" : 4,
 					"rnbo_uniqueid" : "oscillator2/waveform",
 					"rnboinfo" : 					{
 						"needsInstanceInfo" : 1,
@@ -2976,7 +2976,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1442.666656404733658, 524.333326250314713, 367.0, 23.0 ],
+					"patching_rect" : [ 1442.666656404733658, 524.333326250314713, 418.0, 23.0 ],
 					"rnbo_classname" : "param",
 					"rnbo_extra_attributes" : 					{
 						"exponent" : 1.0,
@@ -2988,7 +2988,6 @@
 						"meta" : "",
 						"displayname" : "",
 						"steps" : 0.0,
-						"unit" : "",
 						"order" : "0",
 						"preset" : 1
 					}
@@ -3369,7 +3368,7 @@
 						"changesPatcherIO" : 0
 					}
 ,
-					"text" : "param envelope/decay @minimum 10 @maximum 3000 @value 100",
+					"text" : "param envelope/decay @minimum 10 @maximum 3000 @value 100 @unit ms",
 					"varname" : "envelope/decay"
 				}
 
@@ -3381,7 +3380,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1403.666656404733658, 492.333326250314713, 362.0, 23.0 ],
+					"patching_rect" : [ 1403.666656404733658, 492.333326250314713, 413.0, 23.0 ],
 					"rnbo_classname" : "param",
 					"rnbo_extra_attributes" : 					{
 						"exponent" : 1.0,
@@ -3393,7 +3392,6 @@
 						"meta" : "",
 						"displayname" : "",
 						"steps" : 0.0,
-						"unit" : "",
 						"order" : "0",
 						"preset" : 1
 					}
@@ -3774,7 +3772,7 @@
 						"changesPatcherIO" : 0
 					}
 ,
-					"text" : "param envelope/attack @minimum 10 @maximum 3000 @value 10",
+					"text" : "param envelope/attack @minimum 10 @maximum 3000 @value 10 @unit ms",
 					"varname" : "envelope/attack"
 				}
 
@@ -4709,11 +4707,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-17",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1508.166656404733658, 589.333326250314713, 373.0, 23.0 ],
+					"patching_rect" : [ 1508.166656404733658, 589.333326250314713, 353.0, 37.0 ],
 					"rnbo_classname" : "param",
 					"rnbo_extra_attributes" : 					{
 						"exponent" : 1.0,
@@ -4725,7 +4724,6 @@
 						"meta" : "",
 						"displayname" : "",
 						"steps" : 0.0,
-						"unit" : "",
 						"order" : "0",
 						"preset" : 1
 					}
@@ -5106,7 +5104,7 @@
 						"changesPatcherIO" : 0
 					}
 ,
-					"text" : "param envelope/release @minimum 10 @maximum 3000 @value 100",
+					"text" : "param envelope/release @minimum 10 @maximum 3000 @value 100 @unit ms",
 					"varname" : "envelope/release"
 				}
 

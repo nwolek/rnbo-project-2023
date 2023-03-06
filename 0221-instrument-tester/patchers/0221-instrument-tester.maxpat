@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 130.0, 145.0, 1122.0, 711.0 ],
+		"rect" : [ 211.0, 145.0, 1122.0, 711.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,7 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"attr" : "oscillator/waveform",
+					"id" : "obj-61",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 157.0, 372.0, 100.0, 22.0 ],
+					"text" : "deletesnapshot 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "oscillator1/waveform",
 					"id" : "obj-59",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
@@ -1281,52 +1293,10 @@
 					}
 ,
 					"outlettype" : [ "signal", "signal", "list" ],
-					"patching_rect" : [ 340.0, 418.0, 404.0, 31.0 ],
+					"patching_rect" : [ 340.0, 418.0, 549.0, 31.0 ],
 					"rnboattrcache" : 					{
-						"filter/high-cut" : 						{
-							"label" : "filter/high-cut",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"filter/low-cut" : 						{
-							"label" : "filter/low-cut",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"envelope/attack" : 						{
-							"label" : "envelope/attack",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"envelope/decay" : 						{
 							"label" : "envelope/decay",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"envelope/sustain" : 						{
-							"label" : "envelope/sustain",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"envelope/release" : 						{
-							"label" : "envelope/release",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"oscillator1/detune" : 						{
-							"label" : "oscillator1/detune",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"oscillator2/detune" : 						{
-							"label" : "oscillator2/detune",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1337,8 +1307,50 @@
 							"parsestring" : ""
 						}
 ,
+						"filter/high-cut" : 						{
+							"label" : "filter/high-cut",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"oscillator1/detune" : 						{
+							"label" : "oscillator1/detune",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"filter/low-cut" : 						{
+							"label" : "filter/low-cut",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"envelope/sustain" : 						{
+							"label" : "envelope/sustain",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"oscillator2/pan" : 						{
 							"label" : "oscillator2/pan",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"envelope/attack" : 						{
+							"label" : "envelope/attack",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"oscillator2/detune" : 						{
+							"label" : "oscillator2/detune",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"envelope/release" : 						{
+							"label" : "envelope/release",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1371,6 +1383,7 @@
 					"saved_object_attributes" : 					{
 						"optimization" : "O1",
 						"parameter_enable" : 1,
+						"polyphony" : 16,
 						"uuid" : "56b73bf9-9ce1-11ed-bbf9-f23800000666"
 					}
 ,
@@ -1385,6 +1398,10 @@
 						"embed" : 1,
 						"snapshot" : 						{
 							"envelope/sustain" : 							{
+								"value" : 1.0
+							}
+,
+							"oscillator1/detune" : 							{
 								"value" : 0.8
 							}
 ,
@@ -1392,11 +1409,15 @@
 								"value" : 0.0
 							}
 ,
-							"oscillator1/detune" : 							{
-								"value" : 0.0
+							"envelope/decay" : 							{
+								"value" : 100.0
 							}
 ,
-							"envelope/decay" : 							{
+							"envelope/attack" : 							{
+								"value" : 10.0
+							}
+,
+							"filter/low-cut" : 							{
 								"value" : 100.0
 							}
 ,
@@ -1408,27 +1429,71 @@
 								"value" : 0.0
 							}
 ,
-							"envelope/attack" : 							{
-								"value" : 10.0
+							"filter/high-cut" : 							{
+								"value" : 1000.0
 							}
 ,
-							"filter/low-cut" : 							{
-								"value" : 992.0
+							"__sps" : 							{
+								"poly" : [ 									{
+
+									}
+, 									{
+
+									}
+, 									{
+
+									}
+, 									{
+
+									}
+, 									{
+
+									}
+, 									{
+
+									}
+, 									{
+
+									}
+, 									{
+
+									}
+, 									{
+
+									}
+, 									{
+
+									}
+, 									{
+
+									}
+, 									{
+
+									}
+, 									{
+
+									}
+, 									{
+
+									}
+, 									{
+
+									}
+, 									{
+
+									}
+ ]
 							}
 ,
 							"oscillator2/detune" : 							{
 								"value" : 0.0
 							}
 ,
-							"filter/high-cut" : 							{
-								"value" : 8000.0
-							}
-,
-							"oscillator2/waveform" : 							{
-								"value" : 1.0
-							}
-,
 							"__presetid" : "instrument-02.rnbopat",
+							"oscillator2/waveform" : 							{
+								"value" : 0.0
+							}
+,
 							"oscillator1/waveform" : 							{
 								"value" : 1.0
 							}
@@ -1441,13 +1506,17 @@
 									"filetype" : "C74Snapshot",
 									"version" : 2,
 									"minorversion" : 0,
-									"name" : "test-tone.rnbopat",
+									"name" : "instrument-02.rnbopat",
 									"origin" : "instrument-02.rnbopat",
 									"type" : "rnbo",
 									"subtype" : "",
 									"embed" : 1,
 									"snapshot" : 									{
 										"envelope/sustain" : 										{
+											"value" : 1.0
+										}
+,
+										"oscillator1/detune" : 										{
 											"value" : 0.8
 										}
 ,
@@ -1455,11 +1524,15 @@
 											"value" : 0.0
 										}
 ,
-										"oscillator1/detune" : 										{
-											"value" : 0.0
+										"envelope/decay" : 										{
+											"value" : 100.0
 										}
 ,
-										"envelope/decay" : 										{
+										"envelope/attack" : 										{
+											"value" : 10.0
+										}
+,
+										"filter/low-cut" : 										{
 											"value" : 100.0
 										}
 ,
@@ -1471,27 +1544,71 @@
 											"value" : 0.0
 										}
 ,
-										"envelope/attack" : 										{
-											"value" : 10.0
+										"filter/high-cut" : 										{
+											"value" : 1000.0
 										}
 ,
-										"filter/low-cut" : 										{
-											"value" : 992.0
+										"__sps" : 										{
+											"poly" : [ 												{
+
+												}
+, 												{
+
+												}
+, 												{
+
+												}
+, 												{
+
+												}
+, 												{
+
+												}
+, 												{
+
+												}
+, 												{
+
+												}
+, 												{
+
+												}
+, 												{
+
+												}
+, 												{
+
+												}
+, 												{
+
+												}
+, 												{
+
+												}
+, 												{
+
+												}
+, 												{
+
+												}
+, 												{
+
+												}
+, 												{
+
+												}
+ ]
 										}
 ,
 										"oscillator2/detune" : 										{
 											"value" : 0.0
 										}
 ,
-										"filter/high-cut" : 										{
-											"value" : 8000.0
-										}
-,
-										"oscillator2/waveform" : 										{
-											"value" : 1.0
-										}
-,
 										"__presetid" : "instrument-02.rnbopat",
+										"oscillator2/waveform" : 										{
+											"value" : 0.0
+										}
+,
 										"oscillator1/waveform" : 										{
 											"value" : 1.0
 										}
@@ -1499,11 +1616,11 @@
 									}
 ,
 									"fileref" : 									{
-										"name" : "test-tone.rnbopat",
-										"filename" : "test-tone.rnbopat_20230221.maxsnap",
-										"filepath" : "~/Documents/Storage/hot_files/emsd2/rnbo-project-2023/0125-test-tone/data",
+										"name" : "instrument-02.rnbopat",
+										"filename" : "instrument-02.rnbopat.maxsnap",
+										"filepath" : "~/Documents/Storage/hot_files/emsd2/rnbo-project-2023/0221-instrument-tester/data",
 										"filepos" : -1,
-										"snapshotfileid" : "6ce44ab7103dfdad12ce023f7cbf843f"
+										"snapshotfileid" : "835417211da3a5e184d68f8819c748e9"
 									}
 
 								}
@@ -1512,7 +1629,7 @@
 
 					}
 ,
-					"text" : "rnbo~ @patchername instrument-02.rnbopat",
+					"text" : "rnbo~ @patchername instrument-02.rnbopat @polyphony 16",
 					"varname" : "rnbo~[1]"
 				}
 
@@ -1994,6 +2111,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-61", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"source" : [ "obj-9", 0 ]
 				}
@@ -2022,9 +2146,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "test-tone.rnbopat_20230221.maxsnap",
-				"bootpath" : "~/Documents/Storage/hot_files/emsd2/rnbo-project-2023/0125-test-tone/data",
-				"patcherrelativepath" : "../../0125-test-tone/data",
+				"name" : "instrument-02.rnbopat.maxsnap",
+				"bootpath" : "~/Documents/Storage/hot_files/emsd2/rnbo-project-2023/0221-instrument-tester/data",
+				"patcherrelativepath" : "../data",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
