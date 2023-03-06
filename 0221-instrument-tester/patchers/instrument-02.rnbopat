@@ -2720,10 +2720,11 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 349.0, 501.0, 622.0, 23.0 ],
+					"patching_rect" : [ 349.0, 501.0, 429.0, 23.0 ],
 					"rnbo_classname" : "param",
 					"rnbo_extra_attributes" : 					{
 						"order" : "0",
+						"tonormalized" : "",
 						"exponent" : 1.0,
 						"meta" : "",
 						"sendinit" : 1,
@@ -2735,7 +2736,7 @@
 						"enum" : ""
 					}
 ,
-					"rnbo_serial" : 4,
+					"rnbo_serial" : 7,
 					"rnbo_uniqueid" : "filter/high-cut",
 					"rnboinfo" : 					{
 						"needsInstanceInfo" : 1,
@@ -3111,7 +3112,7 @@
 						"changesPatcherIO" : 0
 					}
 ,
-					"text" : "param filter/high-cut @minimum 1000 @maximum 8000 @value 8000 @tonormalized log2(value / 20) / 10 @unit Hz",
+					"text" : "param filter/high-cut @minimum 1000 @maximum 8000 @value 8000 @unit Hz",
 					"varname" : "filter/high-cut"
 				}
 
