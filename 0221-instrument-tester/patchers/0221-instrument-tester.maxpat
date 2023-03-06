@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 572.0, 100.0, 1122.0, 711.0 ],
+		"rect" : [ 130.0, 145.0, 1122.0, 711.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1283,30 +1283,6 @@
 					"outlettype" : [ "signal", "signal", "list" ],
 					"patching_rect" : [ 340.0, 418.0, 404.0, 31.0 ],
 					"rnboattrcache" : 					{
-						"decay" : 						{
-							"label" : "decay",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"sustain" : 						{
-							"label" : "sustain",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"release" : 						{
-							"label" : "release",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"attack" : 						{
-							"label" : "attack",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"filter/high-cut" : 						{
 							"label" : "filter/high-cut",
 							"isEnum" : 0,
@@ -1319,8 +1295,62 @@
 							"parsestring" : ""
 						}
 ,
-						"oscillator/waveform" : 						{
-							"label" : "waveform",
+						"envelope/attack" : 						{
+							"label" : "envelope/attack",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"envelope/decay" : 						{
+							"label" : "envelope/decay",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"envelope/sustain" : 						{
+							"label" : "envelope/sustain",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"envelope/release" : 						{
+							"label" : "envelope/release",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"oscillator1/detune" : 						{
+							"label" : "oscillator1/detune",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"oscillator2/detune" : 						{
+							"label" : "oscillator2/detune",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"oscillator1/pan" : 						{
+							"label" : "oscillator1/pan",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"oscillator2/pan" : 						{
+							"label" : "oscillator2/pan",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"oscillator1/waveform" : 						{
+							"label" : "oscillator1/waveform",
+							"isEnum" : 1,
+							"parsestring" : "off sine saw square triangle"
+						}
+,
+						"oscillator2/waveform" : 						{
+							"label" : "oscillator2/waveform",
 							"isEnum" : 1,
 							"parsestring" : "off sine saw square triangle"
 						}
@@ -1354,20 +1384,31 @@
 						"subtype" : "Undefined",
 						"embed" : 1,
 						"snapshot" : 						{
-							"sustain" : 							{
+							"envelope/sustain" : 							{
 								"value" : 0.8
 							}
 ,
-							"decay" : 							{
+							"oscillator1/pan" : 							{
+								"value" : 0.0
+							}
+,
+							"oscillator1/detune" : 							{
+								"value" : 0.0
+							}
+,
+							"envelope/decay" : 							{
 								"value" : 100.0
 							}
 ,
-							"release" : 							{
+							"envelope/release" : 							{
 								"value" : 100.0
 							}
 ,
-							"__presetid" : "instrument-02.rnbopat",
-							"attack" : 							{
+							"oscillator2/pan" : 							{
+								"value" : 0.0
+							}
+,
+							"envelope/attack" : 							{
 								"value" : 10.0
 							}
 ,
@@ -1375,18 +1416,21 @@
 								"value" : 992.0
 							}
 ,
-							"__sps" : 							{
-								"oscillator" : 								{
-									"waveform" : 									{
-										"value" : 2.0
-									}
-
-								}
-
+							"oscillator2/detune" : 							{
+								"value" : 0.0
 							}
 ,
 							"filter/high-cut" : 							{
-								"value" : 2131.0
+								"value" : 8000.0
+							}
+,
+							"oscillator2/waveform" : 							{
+								"value" : 1.0
+							}
+,
+							"__presetid" : "instrument-02.rnbopat",
+							"oscillator1/waveform" : 							{
+								"value" : 1.0
 							}
 
 						}
@@ -1403,20 +1447,31 @@
 									"subtype" : "",
 									"embed" : 1,
 									"snapshot" : 									{
-										"sustain" : 										{
+										"envelope/sustain" : 										{
 											"value" : 0.8
 										}
 ,
-										"decay" : 										{
+										"oscillator1/pan" : 										{
+											"value" : 0.0
+										}
+,
+										"oscillator1/detune" : 										{
+											"value" : 0.0
+										}
+,
+										"envelope/decay" : 										{
 											"value" : 100.0
 										}
 ,
-										"release" : 										{
+										"envelope/release" : 										{
 											"value" : 100.0
 										}
 ,
-										"__presetid" : "instrument-02.rnbopat",
-										"attack" : 										{
+										"oscillator2/pan" : 										{
+											"value" : 0.0
+										}
+,
+										"envelope/attack" : 										{
 											"value" : 10.0
 										}
 ,
@@ -1424,18 +1479,21 @@
 											"value" : 992.0
 										}
 ,
-										"__sps" : 										{
-											"oscillator" : 											{
-												"waveform" : 												{
-													"value" : 2.0
-												}
-
-											}
-
+										"oscillator2/detune" : 										{
+											"value" : 0.0
 										}
 ,
 										"filter/high-cut" : 										{
-											"value" : 2131.0
+											"value" : 8000.0
+										}
+,
+										"oscillator2/waveform" : 										{
+											"value" : 1.0
+										}
+,
+										"__presetid" : "instrument-02.rnbopat",
+										"oscillator1/waveform" : 										{
+											"value" : 1.0
 										}
 
 									}
